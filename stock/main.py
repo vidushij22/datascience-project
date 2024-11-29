@@ -18,8 +18,7 @@ def get_stock_price(symbol, api_key):
         "function": "TIME_SERIES_INTRADAY",  # Fetch intraday stock prices
         "symbol": symbol,  # Stock ticker symbol
         "interval": "5min",  # Time interval between data points
-        "apikey": api_key  #
-       API key
+        "apikey": api_key  #API key
     }
     
     # Make the API request
