@@ -7,9 +7,9 @@ import matplotlib.pyplot as plt
 
 # Function to fetch stock price data
 def get_stock_price(symbol, api_key):
-    """
-    Fetches stock price data for a given symbol using the Alpha Vantage API.
-    """
+   
+    #Fetches stock price data for a given symbol using the Alpha Vantage API.
+   
     # Alpha Vantage API endpoint
     base_url = "https://www.alphavantage.co/query"
     
@@ -33,9 +33,9 @@ def get_stock_price(symbol, api_key):
 
 # Function to process and display stock price data
 def display_stock_data(data, symbol):
-    """
-    Displays stock price data in a user-friendly format for a given symbol.
-    """
+    
+   # Displays stock price data for a given symbol.
+
     if data:
         # Extract the time series data
         time_series = data.get("Time Series (5min)")
